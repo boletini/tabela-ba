@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  /* Estilo para cabeçalhos das colunas */
+  th {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Estilo para células da tabela */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilo para a primeira coluna de dados */
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Estilo para imagens de logotipos */
+  td img {
+    width: 50px;
+    height: auto;
+  }
+  
+  /* Estilo para links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
